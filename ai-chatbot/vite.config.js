@@ -21,9 +21,6 @@ export default defineConfig({
   root: ".",
   build: {
     outDir: "dist",
-    rollupOptions: {
-      input: "public/index.html", // Make Vite look in public/
-    },
   },
   define: {
       'import.meta.env.VITE_OPENAI_API_KEY': JSON.stringify(process.env.OPENAI_API_KEY || ''),
