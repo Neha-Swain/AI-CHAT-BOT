@@ -18,8 +18,13 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  root: ".", // Ensure Vite uses the project root
+  publicDir: "public", // Ensure it knows where the public folder is
   build: {
     outDir: "dist",
+    rollupOptions: {
+      input: "public/index.html", // Explicitly set entry module
+    },
   },
   define: {
       'import.meta.env.VITE_OPENAI_API_KEY': JSON.stringify(process.env.OPENAI_API_KEY || ''),
