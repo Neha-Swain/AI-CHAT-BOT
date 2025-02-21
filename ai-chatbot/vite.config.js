@@ -21,4 +21,9 @@ export default defineConfig({
   define: {
       'import.meta.env.VITE_OPENAI_API_KEY': JSON.stringify(process.env.OPENAI_API_KEY || ''),
   },
+  build: {
+    rollupOptions: {
+      input: "public/index.html", // Make Vite look in public/
+    },
+  },
 });
