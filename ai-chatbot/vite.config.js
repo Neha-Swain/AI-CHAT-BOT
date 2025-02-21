@@ -18,12 +18,14 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  define: {
-      'import.meta.env.VITE_OPENAI_API_KEY': JSON.stringify(process.env.OPENAI_API_KEY || ''),
-  },
+  root: ".",
   build: {
+    outDir: "dist",
     rollupOptions: {
       input: "public/index.html", // Make Vite look in public/
     },
+  },
+  define: {
+      'import.meta.env.VITE_OPENAI_API_KEY': JSON.stringify(process.env.OPENAI_API_KEY || ''),
   },
 });
