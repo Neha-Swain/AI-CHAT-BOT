@@ -1,16 +1,41 @@
-🧠 Chatbot Application – Neurodivergent-Friendly AI Chatbot 🤖
-This is a ReactJS-based chatbot application powered by the ChatGPT API, designed to offer a seamless and natural conversation experience. The interface is clean, minimalistic, and neurodivergent-friendly, ensuring accessibility and ease of use.
+# AI Chatbot – Neurodivergent-Friendly Conversational Assistant 
 
-✨ Features
-✅ Conversational AI: Interact with the chatbot as if talking to a real person.
-✅ Neurodivergent-Friendly UI: A distraction-free, intuitive design for a comfortable user experience.
-✅ Built with ReactJS: Ensures a smooth and responsive interface.
-✅ ChatGPT API Integration: Provides intelligent, context-aware responses.
+This **ReactJS-based AI chatbot** is powered by the **ChatGPT API**, providing an intuitive and accessible conversational experience. Designed with a **neurodivergent-friendly** UI, the chatbot ensures a distraction-free, engaging, and user-friendly interaction.
 
-🚀 Purpose
-The goal of this project is to create a chatbot that enhances user experience with an accessible, friendly, and intelligent conversation interface. Ideal for casual chats, brainstorming ideas, or simply engaging in meaningful interactions.
+---
 
-🛠️ Tech Stack
-ReactJS – Frontend framework for building a dynamic UI
-ChatGPT API – AI-driven conversation engine
-CSS/Styled Components – For a clean, neurodivergent-friendly design
+## Features  
+✅ **Conversational AI** – Engage in **real-time, natural conversations** using ChatGPT.  
+✅ **Neurodivergent-Friendly UI** – A **clean, intuitive design** for better accessibility.  
+✅ **ReactJS-Based Interface** – Ensures **smooth and responsive** interactions.  
+✅ **ChatGPT API Integration** – Delivers **intelligent, context-aware responses**.  
+✅ **Styled Components** – Custom **CSS styling** for an enhanced user experience.  
+
+---
+
+## Tech Stack  
+- **ReactJS** – Frontend framework for dynamic UI.  
+- **ChatGPT API** – AI-driven conversational engine.  
+- **CSS / Styled Components** – For clean and neurodivergent-friendly design.  
+- **Vite** – Fast build tool for optimized development.  
+
+---
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone <repository-url>
+2. Navigate to the project directory:
+  ```bash
+   cd news-app
+```
+3. Install the dependencies
+   ```bash
+   npm install
+4. Run the development server
+   ```bash
+   npm run dev
+   
+
